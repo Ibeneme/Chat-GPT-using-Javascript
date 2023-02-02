@@ -14,9 +14,8 @@ body {
 
 #app {
   width: 100vw;
-  height: 100vh;
+  height: 85vh;
   background: #343541;
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -69,16 +68,19 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-right: 1em;
 }
 
 .ai .profile {
   background: #10a37f;
+  margin-right: 1em;
 }
 
 .profile img {
   width: 60%;
   height: 60%;
   object-fit: contain;
+  margin-right: 1em;
 }
 
 .message {
